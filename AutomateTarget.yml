@@ -1,5 +1,5 @@
 ---
-- name: Automate the aws os pacthing activity
+- name: Create Target Group
   hosts: tag_Name_ict_provisioner 
 
   vars:
