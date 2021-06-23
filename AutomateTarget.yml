@@ -3,8 +3,8 @@
   hosts: tag_name_ict_provisioner 
 
   vars:
-    aws_cli_path: '/usr/bin/aws'
-    mw_id:  "{{ mv_id }}"
+     aws_cli_path: '/usr/bin/aws'
+     mw_id:  "{{ mv_id }}"
 
   tasks:
     - name: Create target group
