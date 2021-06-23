@@ -4,7 +4,7 @@
 
   vars:
     aws_cli_path: '/usr/bin/aws'
-    mw_id: "{{ mv_id }}"
+    mw_id:  "{{ mv_id }}"
 
   tasks:
     - name: Create target group
