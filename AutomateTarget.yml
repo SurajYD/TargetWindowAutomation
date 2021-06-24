@@ -1,6 +1,6 @@
 ---
 - name: Create Target Group
-  hosts: target_group_create 
+  hosts: tag_Name_ict_provisioner 
 
   vars:
     aws_cli_path: '/usr/bin/aws'
