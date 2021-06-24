@@ -1,6 +1,6 @@
 ---
 - name: Create Target Group
-  hosts: tag_Name_ict_provisioner 
+  hosts: target_group_create 
 
   vars:
     aws_cli_path: '/usr/bin/aws'
@@ -12,7 +12,7 @@
         {{ aws_cli_path }}  ssm register-target-with-maintenance-window \
             --region us-east-1 \
             --window-id {{ mw_nm }} \
-            --name "Win_Testable_Target" \
+            --name "Win_Testable_Target_test24" \
             --resource-type "RESOURCE_GROUP" \
             --target "Key=resource-groups:Name,Values=RG_Win_Testable"                           
       register: target_output  
