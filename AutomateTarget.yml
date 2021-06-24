@@ -14,5 +14,5 @@
             --window-id {{ mw_nm }} \
             --name "Win_Testable_Target_test24" \
             --resource-type "RESOURCE_GROUP" \
-            --target "Key=resource-groups:Name,Values=RG_Win_Testable"                           
+            --target "Key=resource-groups:Name,Values=TestGrp1"                           
       register: target_output  
